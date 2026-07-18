@@ -1,0 +1,129 @@
+## =========================
+## Segredos / Configurações locais
+## =========================
+appsettings.json
+appsettings.Development.json
+appsettings.Production.json
+appsettings.*.json
+!appsettings.example.json
+.env
+.env.local
+.env.*.local
+*.pfx
+*.publishsettings
+
+## =========================
+## .NET / ASP.NET Core
+## =========================
+bin/
+obj/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+*.userprefs
+
+## Build results
+[Dd]ebug/
+[Dd]ebugPublic/
+[Rr]elease/
+[Rr]eleases/
+x64/
+x86/
+build/
+bld/
+[Bb]in/
+[Oo]bj/
+
+## Visual Studio cache/options
+.vs/
+*.psess
+*.vsp
+*.vspx
+*.pidb
+*.svclog
+*.scc
+
+## Test results
+[Tt]est[Rr]esult*/
+[Bb]uild[Ll]og.*
+*.VisualState.xml
+TestResult.xml
+
+## NuGet
+*.nupkg
+**/packages/*
+!**/packages/build/
+
+## Publish
+publish/
+*.[Pp]ublish.xml
+*.azurePubxml
+*.publishproj
+
+## SQL Server files
+*.mdf
+*.ldf
+
+## ReSharper / JustCode / DotCover / NCrunch
+_ReSharper*/
+*.[Rr]e[Ss]harper
+*.DotSettings.user
+.JustCode
+*.dotCover
+_NCrunch_*
+.*crunch*.local.xml
+
+## =========================
+## Node.js / React / Vite (frontend)
+## =========================
+node_modules/
+dist/
+dist-ssr/
+build/
+.vite/
+*.local
+
+## Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+## Env files do frontend
+.env
+.env.development.local
+.env.test.local
+.env.production.local
+.env.local
+
+## =========================
+## IDEs / Editores
+## =========================
+.vscode/
+!.vscode/extensions.json
+!.vscode/settings.json
+.idea/
+*.swp
+*.swo
+Project_Readme.html
+*.sln.iml
+
+## =========================
+## Sistema Operacional
+## =========================
+.DS_Store
+Thumbs.db
+desktop.ini
+
+## =========================
+## Outros
+## =========================
+*.log
+*.tmp
+*.tmp_proj
+*.cache
+ClientBin/
+Generated_Code/
+__pycache__/
