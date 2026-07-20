@@ -19,6 +19,5 @@ public class User : BaseEntity
     public virtual ICollection<ToothSurface> ToothSurfaces { get; set; } = new List<ToothSurface>();
     public virtual ICollection<FinancialTransaction> FinancialTransactions { get; set; } = new List<FinancialTransaction>();
     
-    // 🆕 ADICIONE ESTA LINHA:
     public virtual ICollection<Patient> CreatedPatients { get; set; } = new List<Patient>();
 }

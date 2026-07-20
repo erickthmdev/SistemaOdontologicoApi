@@ -104,8 +104,7 @@ builder.Services.AddHealthChecks()
 
 var app = builder.Build();
 
-// Exception handler global — garante que erros 500 também passem
-// pela pipeline de CORS corretamente, em vez de quebrar antes dela.
+
 app.UseExceptionHandler(errorApp =>
 {
     errorApp.Run(async context =>
