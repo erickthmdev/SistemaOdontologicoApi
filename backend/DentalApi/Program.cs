@@ -23,8 +23,8 @@ builder.Services.AddCors(options =>
         policy.WithOrigins(
                 "https://sistemaodonto.netlify.app",
                 "https://sua-url.netlify.app",
-                "http://localhost:5173",
-                "http://localhost:3000"
+                "http://localhost:5173"
+                
               )
               .AllowAnyMethod()
               .AllowAnyHeader()
